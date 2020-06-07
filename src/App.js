@@ -1,29 +1,33 @@
-import React from 'react';
-// import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Navigation from './components/Navigation.js';
+import Footer from './components/Footer.js';
+import Home from './pages/Home.js';
+import Portfolio from './pages/Portfolio.js';
+import Contact from './pages/Contact.js';
+
+
 import Darkmode from 'darkmode-js';
+
 
 new Darkmode().showWidget();
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          José Carlos Medina's react portfolio is coming - check back soon!
-        </p>
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-    </div>
-  );
+    <Router>
+      <div>
+        <Navigation />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </div>
+      <Footer />
+    </Router>
+  )   
 }
+    
+
+
 
 export default App;
