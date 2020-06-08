@@ -11,7 +11,7 @@ function Navigation () {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav id="nav-items" className="mr-auto">
        <li><Link id="link-text" to="/">Home</Link></li>
-       <li><Link id="link-text" to="Portfolio">Portfolio</Link></li> 
+       <li><Link id="link-text" to="portfolio">Portfolio</Link></li> 
        <li><Link id="link-text" to="contact">Contact</Link></li>  
       </Nav>     
     </Navbar.Collapse>
