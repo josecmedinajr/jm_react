@@ -13,7 +13,7 @@ function Portfolio() {
        
      <Container fluid>
      <Row>
-     <h5 class="my-portfolio">Projects developed while enrolled at the <b>University of Miami Full Stack Coding Bootcamp</b> - Go Canes!</h5>
+     <h5 class="my-portfolio">Projects developed while enrolled at the <b>University of Miami's Full Stack Web Development Bootcamp</b> - Go Canes!</h5>
      </Row>
 
      <Row id="portfolio-top">
@@ -92,7 +92,7 @@ function Portfolio() {
      <Card.Text>
       Keep your day organized!
      </Card.Text>
-     <Button id="portfolio-btn"><a href="https://josecmedinajr.github.io/Weather_Dashboard/" target="_blank">Plan your day here!</a></Button>
+     <Button id="portfolio-btn"><a href="https://josecmedinajr.github.io/DayPlanner/" target="_blank">Plan your day here!</a></Button>
      </Card.Body>
      </Card>
      </Col>
