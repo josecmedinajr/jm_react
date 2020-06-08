@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/jm_react/static/css/main.dd86cac7.chunk.css",
-    "main.js": "/jm_react/static/js/main.cc4e8096.chunk.js",
-    "main.js.map": "/jm_react/static/js/main.cc4e8096.chunk.js.map",
+    "main.css": "/jm_react/static/css/main.f8e82a52.chunk.css",
+    "main.js": "/jm_react/static/js/main.95088034.chunk.js",
+    "main.js.map": "/jm_react/static/js/main.95088034.chunk.js.map",
     "runtime-main.js": "/jm_react/static/js/runtime-main.c5484c49.js",
     "runtime-main.js.map": "/jm_react/static/js/runtime-main.c5484c49.js.map",
     "static/css/2.af3c1da9.chunk.css": "/jm_react/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6056000f.chunk.js": "/jm_react/static/js/2.6056000f.chunk.js",
-    "static/js/2.6056000f.chunk.js.map": "/jm_react/static/js/2.6056000f.chunk.js.map",
+    "static/js/2.a461c37e.chunk.js": "/jm_react/static/js/2.a461c37e.chunk.js",
+    "static/js/2.a461c37e.chunk.js.map": "/jm_react/static/js/2.a461c37e.chunk.js.map",
     "index.html": "/jm_react/index.html",
-    "precache-manifest.5c6607a4349addd5326b74879d59c690.js": "/jm_react/precache-manifest.5c6607a4349addd5326b74879d59c690.js",
+    "precache-manifest.0f7f7a0ca7ca4cc7c91b6bbf9651c6f7.js": "/jm_react/precache-manifest.0f7f7a0ca7ca4cc7c91b6bbf9651c6f7.js",
     "service-worker.js": "/jm_react/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/jm_react/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.dd86cac7.chunk.css.map": "/jm_react/static/css/main.dd86cac7.chunk.css.map",
-    "static/js/2.6056000f.chunk.js.LICENSE.txt": "/jm_react/static/js/2.6056000f.chunk.js.LICENSE.txt",
-    "static/media/JosePhotos.jpg": "/jm_react/static/media/JosePhotos.af76bc5d.jpg"
+    "static/css/main.f8e82a52.chunk.css.map": "/jm_react/static/css/main.f8e82a52.chunk.css.map",
+    "static/js/2.a461c37e.chunk.js.LICENSE.txt": "/jm_react/static/js/2.a461c37e.chunk.js.LICENSE.txt",
+    "static/media/DayPlanner_portfolio.jpg": "/jm_react/static/media/DayPlanner_portfolio.f83504ea.jpg",
+    "static/media/EventSplash_Portfolio.jpg": "/jm_react/static/media/EventSplash_Portfolio.36011578.jpg",
+    "static/media/JosePhotos.jpg": "/jm_react/static/media/JosePhotos.af76bc5d.jpg",
+    "static/media/Weather_Dashboard_Portfolio.jpg": "/jm_react/static/media/Weather_Dashboard_Portfolio.6c545709.jpg",
+    "static/media/swapAid_Portfolio.jpg": "/jm_react/static/media/swapAid_Portfolio.f075bf68.jpg",
+    "static/media/tennisImage_portfolio.jpg": "/jm_react/static/media/tennisImage_portfolio.e941f9c2.jpg",
+    "static/media/water-cooler_portfolio.jpg": "/jm_react/static/media/water-cooler_portfolio.69739491.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c5484c49.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.6056000f.chunk.js",
-    "static/css/main.dd86cac7.chunk.css",
-    "static/js/main.cc4e8096.chunk.js"
+    "static/js/2.a461c37e.chunk.js",
+    "static/css/main.f8e82a52.chunk.css",
+    "static/js/main.95088034.chunk.js"
   ]
 }
