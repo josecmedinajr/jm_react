@@ -8,7 +8,7 @@ new Darkmode().showWidget();
 function Footer() {
     return (
         <Navbar  sticky="bottom" className="bottom">
-          <Navbar.Brand href="#">2020 José Carlos Medina</Navbar.Brand>
+          <Navbar.Brand href="#" className="bottom"> © 2020 José Carlos Medina</Navbar.Brand>
         </Navbar>
 
     )
