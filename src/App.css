@@ -1,19 +1,46 @@
 body {
   font-size: 15px;
+  color: #344475;
+  border: 1px solid;
 }
 
-#navbar {
+#navmenu {
   background-color: #344475;
   color: white;
 }
 
-.jose {
-  float: left;
+#nav-items {
+  color: white;
+  justify-content: right;
+}
+
+#jcm {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.my-portfolio {
   padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+#portfolio-top {
+  padding-bottom: 50px;
+}
+
+#link-text {
+  color: white;
+  font-size: 17px;
 }
 
 .photos {
-  float: block;
+  justify-content: center;
+  padding-left: 20px;
+  padding-top: 20px;
+
 }
 
 .top-paragraph {
@@ -30,5 +57,43 @@ body {
   text-align: center;
   font-size: 15px;
   background-color: lightgray;
+}
+
+.contact {
+  text-align: center;
+}
+
+.title {
+  padding-top: 20px;
+}
+.title{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.work {
+  text-align: center;
+}
+
+#portfolio-btn {
+  background-color: #344475;  
+}
+
+a {
+  color: white;
+}
+
+.bottom{
+  justify-content: center;    
+  margin-top: 40px;
+  background-color: #abb1c3;
+  /* background-color: #9ca3bd; */
+  border-top-style: solid;
+  border-color:#4c5b8e;  
+  border-bottom-style: solid;    
+}
+
+#footer {
+  font-size: 15px;  
 }
 

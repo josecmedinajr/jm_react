@@ -1,14 +1,13 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import photos from '../images/JosePhotos.jpg';
-// import Darkmode from 'darkmode-js';
-// new Darkmode().showWidget();
+
 
 
 function Home () {
     return (
        <div>
-         <Container fluid >      
+         <Container>      
          <Row>
          <img className="photos" src={photos} alt=""></img>  
           </Row>         

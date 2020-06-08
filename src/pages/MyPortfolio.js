@@ -1,100 +1,98 @@
 import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
-
-// import Darkmode from 'darkmode-js';
-
-// new Darkmode().showWidget();
-
+import dayplanner from '../images/DayPlanner_portfolio.jpg';
+import eventsplash from '../images/EventSplash_Portfolio.jpg';
+import swapaid from '../images/swapAid_Portfolio.jpg';
+import tennis from '../images/tennisImage_portfolio.jpg';
+import watercooler from '../images/water-cooler_portfolio.jpg';
+import weather from '../images/Weather_Dashboard_Portfolio.jpg';
 
 function Portfolio() {
     return(
      <div>
-       <h5>Please take a look at my Projects</h5>
+       
      <Container fluid>
-      <Row>
+     <Row>
+     <h5 class="my-portfolio">Projects developed while enrolled at the <b>University of Miami Full Stack Coding Bootcamp</b> - Go Canes!</h5>
+     </Row>
+
+     <Row id="portfolio-top">
       <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={watercooler} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>Water Cooler - Final Project</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      When your thirst for new Media!
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="">Coming Soon!</a></Button>
      </Card.Body>
      </Card>
      </Col>
 
      <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={swapaid} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>swapAid - Project 2</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Swap items - it's free!
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="https://shrouded-shelf-73008.herokuapp.com/" target="_blank">Start swapping!</a></Button>
      </Card.Body>
      </Card>
      </Col>
 
      <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={tennis} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>Tennis Image</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Do you like actions shots?
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="https://josecmedinajr.github.io/tennis_image/" target="_blank">View my Tennis Images!</a></Button>
      </Card.Body>
      </Card>
      </Col>
-
      </Row>
 
      <Row>
       <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={eventsplash} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>Event Splash - Project 1</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Looking for something to do?
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="https://ezequiell323.github.io/groupproject01/" target="_blank">Find Events Now!</a></Button>
      </Card.Body>
      </Card>
      </Col>
 
      <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={weather} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>Weather Dashboard</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Rain or Shine?
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="https://josecmedinajr.github.io/Weather_Dashboard/" target="_blank">Weather Near You!</a></Button>
      </Card.Body>
      </Card>
      </Col>
 
      <Col>
       <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={dayplanner} />
      <Card.Body>
-     <Card.Title>Card Title</Card.Title>
+     <Card.Title>Day Planner</Card.Title>
      <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+      Keep your day organized!
      </Card.Text>
-     <Button variant="primary">Go somewhere</Button>
+     <Button id="portfolio-btn"><a href="https://josecmedinajr.github.io/Weather_Dashboard/" target="_blank">Plan your day here!</a></Button>
      </Card.Body>
      </Card>
      </Col>

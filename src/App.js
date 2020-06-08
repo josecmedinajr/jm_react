@@ -7,8 +7,6 @@ import MyPortfolio from './pages/MyPortfolio.js';
 import ContactMe from './pages/ContactMe.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Darkmode from 'darkmode-js';
-// new Darkmode().showWidget();
 
 function App () {
   return (
