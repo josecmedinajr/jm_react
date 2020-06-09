@@ -10,12 +10,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App () {
   return (
-    <Router>
+   
+   <Router>
       <div>
-        <Navigation />        
+        <Navigation />  
+        <Switch>  
         <Route exact path="/portfolio" component={MyPortfolio} />
         <Route exact path="/contact" component={ContactMe} />
-        <Route exact path="/" component={Home} />
+        <Route component={Home} />
+        </Switch>    
       </div>
       <Footer />
     </Router>
