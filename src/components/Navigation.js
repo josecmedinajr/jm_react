@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 function Navigation () {
     return (
     <Navbar id="navmenu" expand="lg">
-    <Navbar.Brand id="jcm" href="#home">José Carlos Medina</Navbar.Brand>
+    <Navbar.Brand id="jcm">José Carlos Medina</Navbar.Brand>
+    {/* <Navbar.Brand id="jcm" href="#home">José Carlos Medina</Navbar.Brand> */}
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav id="nav-items" className="mr-auto">
