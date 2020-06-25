@@ -21,11 +21,11 @@ function Portfolio() {
       <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={watercooler} />
      <Card.Body>
-     <Card.Title>Water Cooler - Final Project</Card.Title>
+     <Card.Title>Water Cooler, Project 3</Card.Title>
      <Card.Text>
-      When your thirst for new Media!
+      Thirst for new Media?
      </Card.Text>
-     <Button id="portfolio-btn"><a href="">Coming Soon!</a></Button>
+     <Button id="portfolio-btn"><a href="https://github.com/cronint11/water_cooler" target="_blank">Visit Now!</a></Button>
      </Card.Body>
      </Card>
      </Col>

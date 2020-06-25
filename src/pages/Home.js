@@ -14,7 +14,7 @@ function Home () {
           <Row className="top-paragraph"> 
           
             <Col>
-              <b>Hello I’m Jose!</b>  I am a web developer who recently graduated from the <b>University of Miami's Full Stack Web Development Bootcamp</b>. My goal is to design aesthetically pleasing and functional web apps. I have published large-scale web sites, such as the <b>USTA Florida (United States Tennis Association)</b> and the <b>Miami Open Tennis</b> tournament web site for many years.
+              <b>Hello, I’m Jose!</b>  I am a web developer who recently graduated from the <b>University of Miami's Full Stack Web Development Bootcamp</b>. My goal is to design aesthetically pleasing and functional web apps. I have published large-scale web sites, such as the <b>USTA Florida (United States Tennis Association)</b> and the <b>Miami Open Tennis</b> tournament web site for many years.
             </Col>
           </Row>
           <Row className="middle-paragraph">
