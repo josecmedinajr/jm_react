@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abc55c55ea51b90e39d67ea4d6b37494",
+    "revision": "5c6f128e0dfecf032ed53e50453b85c0",
     "url": "/jm_react/index.html"
   },
   {
-    "revision": "e865b64a04edaf5ca0d9",
+    "revision": "941068f47a07ca7f843a",
     "url": "/jm_react/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "3e73bc38cdeb812979a0",
-    "url": "/jm_react/static/css/main.e35768f7.chunk.css"
+    "revision": "98eaf0c32994bf61ac49",
+    "url": "/jm_react/static/css/main.1297b2c5.chunk.css"
   },
   {
-    "revision": "e865b64a04edaf5ca0d9",
-    "url": "/jm_react/static/js/2.bdb19b45.chunk.js"
+    "revision": "941068f47a07ca7f843a",
+    "url": "/jm_react/static/js/2.4d5bdcd8.chunk.js"
   },
   {
     "revision": "e9eeb05a31aee3590024e3b47110cccd",
-    "url": "/jm_react/static/js/2.bdb19b45.chunk.js.LICENSE.txt"
+    "url": "/jm_react/static/js/2.4d5bdcd8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e73bc38cdeb812979a0",
-    "url": "/jm_react/static/js/main.931531c8.chunk.js"
+    "revision": "98eaf0c32994bf61ac49",
+    "url": "/jm_react/static/js/main.e32d622f.chunk.js"
   },
   {
     "revision": "491dbc018a793364b2a0",
@@ -44,12 +44,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jm_react/static/media/Weather_Dashboard_Portfolio.6c545709.jpg"
   },
   {
+    "revision": "d2282508cdd49255e7d816de3eb06dc4",
+    "url": "/jm_react/static/media/email.d2282508.png"
+  },
+  {
+    "revision": "aab5b3bf902c51743c57b5b17c4e4867",
+    "url": "/jm_react/static/media/github.aab5b3bf.png"
+  },
+  {
+    "revision": "248d854306236e6528cdd450899d7509",
+    "url": "/jm_react/static/media/linkedin.248d8543.png"
+  },
+  {
     "revision": "f075bf6854d1552c272b95a0239045ca",
     "url": "/jm_react/static/media/swapAid_Portfolio.f075bf68.jpg"
   },
   {
     "revision": "e941f9c2a6f4f101424eb4bd2c31ac89",
     "url": "/jm_react/static/media/tennisImage_portfolio.e941f9c2.jpg"
+  },
+  {
+    "revision": "0ab3f89debeb3db812d038ff011fb5f8",
+    "url": "/jm_react/static/media/twitter.0ab3f89d.png"
   },
   {
     "revision": "697394910da76c427a8549ef49c30f0d",
