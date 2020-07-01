@@ -5,8 +5,6 @@ body {
   font-family: 'Varela Round', sans-serif;;
 }
 
-
-
 #navmenu {
   background-color: #344475;
   color: white;
@@ -44,7 +42,10 @@ body {
   justify-content: center;
   padding-left: 20px;
   padding-top: 20px;
+}
 
+.image {
+  padding-bottom: 7px;
 }
 
 .top-paragraph {
@@ -71,9 +72,17 @@ body {
   text-align: center;
 }
 
+.contactMe {
+  font-style: italic;
+  color: blue;
+  text-decoration: underline;
+
+}
+
 .title {
   padding-top: 20px;
 }
+
 .title{
   text-align: center;
   text-decoration: underline;
@@ -89,7 +98,7 @@ body {
 
 a {
   color: white;
-}
+} 
 
 .bottom{
   justify-content: center;    

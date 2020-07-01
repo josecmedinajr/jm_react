@@ -21,29 +21,29 @@ function Contact(){
           <br></br>
           <Row className="work">
              <Col>
-              <img src={email} height="50px" alt="email"/>
-              <h6><b>Email: jose.c.medina@me.com</b></h6>
+              <img src={email} height="50px" alt="email" className="image"/>
+              <h6><b><a href="mailto:jose.c.medina@me.com" target="_blank" className="contactMe">E-mail</a></b></h6>
              </Col>                       
           </Row>
           <br></br>
           <Row className="work">
              <Col>
-             <img src={github} height="50px" alt="github"/>
-              <h6><b>GitHub repository: https://github.com/josecmedinajr</b></h6>
+             <img src={github} height="50px" alt="github" className="image"/>
+              <h6><b>View my repos - <a href="https://github.com/josecmedinajr" target="_blank" className="contactMe">GitHub</a></b></h6>
              </Col>              
           </Row>
           <br></br>
           <Row className="work">
              <Col>
-              <img src={linkedin} height="50px" alt="linkedin"/>
-              <h6><b>LinkedIn: https://www.linkedin.com/in/josecmedinajr/</b></h6>
-             </Col>              
+              <img src={linkedin} height="50px" alt="linkedin" className="image"/>
+              <h6><b>Connect with me - <a href="https://www.linkedin.com/in/josecmedinajr/" target="_blank" className="contactMe">LinkedIn</a></b></h6>
+             </Col>               
           </Row>
           <br></br>
           <Row className="work">
              <Col>
-             <img src={twitter} height="50px" alt="twitter"/>
-              <h6><b>Twitter: https://twitter.com/JCMLV</b></h6>
+             <img src={twitter} height="50px" alt="twitter" />
+              <h6><b>Follow me on - <a href="https://twitter.com/JCMLV" target="_blank" className="contactMe">Twitter</a></b></h6>
              </Col>              
           </Row>
             </Container>
