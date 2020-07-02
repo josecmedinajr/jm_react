@@ -15,7 +15,8 @@ function Contact(){
          <h2 className ="title">Contact</h2>
           <Row className="work">
              <Col>
-              <h5 className="work"> I'm available for work opportunities, part-time and full-time, projects - and to play tennis also!</h5>
+              <h5 className="work"> I'm available for full-time and part-time work opportunities, projects <br>
+              </br> ...and to play tennis also!</h5>
              </Col>              
           </Row>
           <br></br>
